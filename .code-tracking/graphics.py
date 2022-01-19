@@ -80,7 +80,7 @@ def extract_plot_data(cache, GAP=GAP):
 def generate_images(cache: 'Cache', filename: str = "days.png",
                     GAP: int = GAP):
     plot_data = extract_plot_data(cache, GAP=GAP)
-    max_count = max(map(lambda x: len(x[0]), plot_data.values()))
+    max_count = max(list(map(lambda x: len(x[0]), plot_data.values())) + [0])
 
     colors = [
         (tuple(int(c * 255) for c in color), color)
