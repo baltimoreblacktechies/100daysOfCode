@@ -1,18 +1,21 @@
-### *TEMPLATE TODO(remove me)*:
-This repository seeks to serve as a template for organizations/groups that would collectively like to participate in the 100 days of code project. To use this project, replace all words in `<tags>` with the respective value. For instance, `<year> -> 2022`. You should just be able to search for occurrences of `<`. Additionally, address wherever there is a TODO. For an example of this template in use, see https://github.com/baltimoreblacktechies/100daysOfCode-2021/ and for the auto-generated tracking site, see https://baltimoreblacktechies.github.io/100daysOfCode
+# **TEMPLATE TODO 🗒️🗒️🗒️**:
+### (remove me)
+This repository seeks to serve as a template for organizations/groups that would collectively like to participate in the 100 days of code project. To use this project, replace all words in `<tags>` with the respective value. For instance, `<year> -> 2022`. You should just be able to search for occurrences of `<`. Additionally, address wherever there is a TODO. For an example of this template in use, see [BBT-2021](https://github.com/baltimoreblacktechies/100daysOfCode-2021/) and for the auto-generated tracking site, [see the rendering of this template](https://baltimoreblacktechies.github.io/100daysOfCode).
 
-You may also want to edit `mkdocs.yml` for static site generation.
+You may also want to edit `mkdocs.yml` for static site generation. Contributions are counted in a given day, are will not be counted if the phrases `DNT`, `Updated README` or `Merge pull request` are present in a commit message.
+
+---
 
 # 100 Days Of Code <organization>
 ## <year>
 
-### TODO: Add more relevant badges. Example badges below. Note that the contributor and days code are automatically generated and can be changed for your repo.
 [![100 days of Code](https://raw.githubusercontent.com/baltimoreblacktechies/100daysOfCode/gh-pages/banner.png)](https://bmoreblack.tech)
 [![Join the slack channel](https://img.shields.io/badge/slack-Baltimore%20Black%20Techies-red.svg?logo=slack)](http://bit.ly/3r4lPQm)
 [![Contributors](https://raw.githubusercontent.com/baltimoreblacktechies/100daysOfCode-2021/gh-pages/contributors.svg)](https://baltimoreblacktechies.github.io/100daysOfCode-2021/#current-status)
 [![Days](https://raw.githubusercontent.com/baltimoreblacktechies/100daysOfCode-2021/gh-pages/days.svg)](https://bmoreblack.tech)
 [![Docs](https://img.shields.io/badge/docs-100%20days-violet)](https://baltimoreblacktechies.github.io/100daysOfCode-2021/)
-
+### TODO: Add more relevant badges. Example badges below. Note that the contributor and days code are automatically generated and can be changed for your repo.
+  
 The challenge is to code at least **one hour every day for the next 100 days**.
 This is just a repository for members of <organization> to share some of their projects, efforts and notes. Let's see if we can get 100 days of code together!
 
