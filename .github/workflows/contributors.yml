@@ -23,12 +23,12 @@ jobs:
       - name: setup
         run: |
           pip3 install --user wheel mkdocs mkdocs-material python-markdown-math
-          pip3 install -r ${GITHUB_WORKSPACE}/.code_tracker/requirements
+          pip3 install -r ${GITHUB_WORKSPACE}/.code-tracking/requirements
 
       - name: images
         run: |
           mkdir -p /home/runner/cache/
-          python .code_tracker -o tracker_overrides.json -c /home/runner/cache/cache.json
+          python .code-tracking -o tracker_overrides.json -c /home/runner/cache/cache.json
           gzip -d *gz
           mkdir -p artifacts
           cp /home/runner/cache/cache.json artifacts
