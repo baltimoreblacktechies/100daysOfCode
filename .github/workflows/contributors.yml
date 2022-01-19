@@ -1,0 +1,60 @@
+name: contributors
+on:
+  push:
+    branches:
+      - main
+jobs:
+  contributors:
+    runs-on: ubuntu-20.04
+    steps:
+      - name: checkout
+        uses: actions/checkout@v2
+        with:
+          persist-credentials: false
+          fetch-depth: 0
+
+      - name: Mount cache
+        id: tracker-cache
+        uses: actions/cache@v1
+        with:
+          path: "/home/runner/cache"
+          key: cache
+
+      - name: setup
+        run: |
+          pip3 install --user wheel mkdocs mkdocs-material python-markdown-math
+          pip3 install -r ${GITHUB_WORKSPACE}/.code_tracker/requirements
+
+      - name: images
+        run: |
+          mkdir -p /home/runner/cache/
+          python .code_tracker -o tracker_overrides.json -c /home/runner/cache/cache.json
+          gzip -d *gz
+          mkdir -p artifacts
+          cp /home/runner/cache/cache.json artifacts
+          cp *.png artifacts
+          cp *.svg artifacts
+
+      - uses: actions/upload-artifact@v2
+        with:
+          name: artifacts
+          path: artifacts
+
+      - name: build
+        run: |
+          mkdir -p docs
+          cp banner.png docs
+          cp *.png docs
+          cp *.svg docs
+          find . -name "100DaysOfCode_*" -exec bash -c "find {}/ -type f \( -name '*md' -o -name '*txt' \) | sort -n | xargs awk 'FNR==1 && NR!=1 {print \"\n---\n\"}{print}' > docs/\$(echo {} | grep -oP \"(?<=_)[^_]*\$\").md" \;
+          find docs/ -name "*md" -exec bash -c "basename {} | xargs echo -e '    - {}:'" \; | sort >> mkdocs.yml
+          cp README.md docs/index.md
+          python3 -m mkdocs build
+          ls site/
+
+      - name: deploy
+        uses: JamesIves/github-pages-deploy-action@4.0.0
+        with:
+          ssh-key: ${{ secrets.ACCESS_TOKEN }}
+          branch: gh-pages
+          folder: site

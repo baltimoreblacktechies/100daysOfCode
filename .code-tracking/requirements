@@ -1,0 +1,9 @@
+absl-py==0.11.0
+matplotlib==3.3.4
+numpy==1.19.4
+-e git+https://github.com/AnotherGroupChat/python-git-wrapper@41f6783ca2fac9ecee3ab8829fee322db539e082#egg=python_git_wrapper
+Pillow==8.1.0
+requests==2.25.1
+scipy==1.5.4
+seaborn==0.11.1
+six==1.15.0

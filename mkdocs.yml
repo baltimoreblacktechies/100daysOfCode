@@ -1,0 +1,27 @@
+site_name: <org> present 100 Days of Code
+site_description: 100 days of code progress
+site_author: <org>
+repo_url: <repo>
+theme:
+  name: material
+  logo: 'https://avatars.githubusercontent.com/u/44561649?s=200&v=4'
+  favicon: 'https://avatars.githubusercontent.com/u/44561649?s=200&v=4'
+  icon:
+    repo: 'fontawesome/brands/github'
+  palette:
+    primary: 'white'
+
+markdown_extensions:
+  - mdx_math:
+      enable_dollar_delimiter: True
+  - codehilite:
+      linenums: true
+
+extra_javascript: [
+  'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_HTML',
+  'https://unpkg.com/@hpcc-js/wasm@0.3.11/dist/index.min.js']
+
+nav:
+  - Home:
+    - index.md
+  - Progress: # leave space under progress. The menu is auto populated.
