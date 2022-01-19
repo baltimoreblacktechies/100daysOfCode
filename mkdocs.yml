@@ -1,7 +1,7 @@
 site_name: <org> present 100 Days of Code
 site_description: 100 days of code progress
 site_author: <org>
-repo_url: <repo>
+repo_url: https://baltimoreblacktechies.github.com/100DaysOfCode
 theme:
   name: material
   logo: 'https://avatars.githubusercontent.com/u/44561649?s=200&v=4'

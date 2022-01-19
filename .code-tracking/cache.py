@@ -7,7 +7,8 @@ from python_git_wrapper import Repository, GitError
 import hashlib
 
 MERGE_STRING = "Merge pull request"
-README_STRING = "Update README.md"
+README_STRING = "Update README"
+DONT_TRACK_STRING = "DNT:"
 
 
 class Cache(object):
@@ -46,7 +47,8 @@ class Cache(object):
             search |= set(commit.parents) - visited
             visited.add(commit)
             if (MERGE_STRING not in commit.message
-                    and README_STRING not in commit.message):
+                    and README_STRING not in commit.message and
+                    DONT_TRACK_STRING not in commit.message):
                 yield commit
 
     def __getattr__(self, key: str):
