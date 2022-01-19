@@ -1,10 +1,10 @@
-# 100 Days Of Code <organization>
-## <year>
-
-### *TODO(remove me)* **TEMPLATE**:
-This repository seeks to serve as a template for organizations/groups that would collectively like to participate in the 100 days of code project. To use this project, replace all words in `<tags>` with the respective value. For instance, `<year> -> 2022`. You should just be able to search for occurrences of `<`. Additionally, address wherever there is a TODO. For an example of this template in use, see https://github.com/baltimoreblacktechies/100daysOfCode-2021/ and for the auto-generated tracking site, see https://baltimoreblacktechies.github.io/100daysOfCode-2021/
+### *TEMPLATE TODO(remove me)*:
+This repository seeks to serve as a template for organizations/groups that would collectively like to participate in the 100 days of code project. To use this project, replace all words in `<tags>` with the respective value. For instance, `<year> -> 2022`. You should just be able to search for occurrences of `<`. Additionally, address wherever there is a TODO. For an example of this template in use, see https://github.com/baltimoreblacktechies/100daysOfCode-2021/ and for the auto-generated tracking site, see https://baltimoreblacktechies.github.io/100daysOfCode
 
 You may also want to edit `mkdocs.yml` for static site generation.
+
+# 100 Days Of Code <organization>
+## <year>
 
 ### TODO: Add more relevant badges. Example badges below. Note that the contributor and days code are automatically generated and can be changed for your repo.
 [![100 days of Code](https://raw.githubusercontent.com/baltimoreblacktechies/100daysOfCode/gh-pages/banner.png)](https://bmoreblack.tech)
