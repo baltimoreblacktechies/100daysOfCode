@@ -4,7 +4,7 @@ This repository seeks to serve as a template for organizations/groups that would
 
 You may also want to edit `mkdocs.yml` for static site generation. Contributions are counted in a given day, are will not be counted if the phrases `DNT`, `Updated README` or `Merge pull request` are present in a commit message.
 
-[![Template Button](https://gist.githubusercontent.com/dmadisetti/80e7e90522829bc12094ccf0d0031b77/raw/cc29dba11f175c5c8043b1c54d76832de0017f21/template.svg)](https://github.com/baltimoreblacktechies/100daysOfCode/generate)
+[![Template Button](https://gist.githubusercontent.com/dmadisetti/80e7e90522829bc12094ccf0d0031b77/raw/5e15952f91b585fe3bb3e92c2d72fc4b48e69f07/template.svg)](https://github.com/baltimoreblacktechies/100daysOfCode/generate)
 
 ---
 
