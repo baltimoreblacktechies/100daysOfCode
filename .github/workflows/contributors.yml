@@ -46,8 +46,8 @@ jobs:
           cp banner.png docs
           cp *.png docs
           cp *.svg docs
-          test $(find . -name "100daysOfCode_*" | wc -l) -gt 1 && rm -rf 100daysOfCode_YourNameHere > /dev/null
-          find . -name "100DaysOfCode_*" -exec bash -c "find {}/ -type f \( -name '*md' -o -name '*txt' \) | sort -n | xargs awk 'FNR==1 && NR!=1 {print \"\n---\n\"}{print}' > docs/\$(echo {} | grep -oP \"(?<=_)[^_]*\$\").md" \;
+          test $(find . -iname "100daysOfCode_*" | wc -l) -gt 1 && rm -rf 100daysOfCode_YourNameHere > /dev/null
+          find . -iname "100daysOfCode_*" -exec bash -c "find {}/ -type f \( -name '*md' -o -name '*txt' \) | sort -n | xargs awk 'FNR==1 && NR!=1 {print \"\n---\n\"}{print}' > docs/\$(echo {} | grep -oP \"(?<=_)[^_]*\$\").md" \;
           find docs/ -name "*md" -exec bash -c "basename {} | xargs echo -e '    - {}:'" \; | sort >> mkdocs.yml
           cp README.md docs/index.md
           python3 -m mkdocs build
