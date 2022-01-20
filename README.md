@@ -18,13 +18,13 @@ This is just a repository for members of <organization> to share some of their p
 
 ## FAQ:
 
-### What Is The #100DaysOfCode Challenge?
+### What Is The #100daysOfCode Challenge?
 
-100 Days Of Code is a social media project, primarily on Twitter, that anyone can participate in via the #100DaysOfCode hashtag. Developer Alex Kallaway started it in 2016 based on the idea that consistency is the path to mastery. Plus, the hashtag fosters a sense of community—you can use it to see where others are at in their journey and to stay  motivated to document your own.
+100 Days Of Code is a social media project, primarily on Twitter, that anyone can participate in via the #100daysOfCode hashtag. Developer Alex Kallaway started it in 2016 based on the idea that consistency is the path to mastery. Plus, the hashtag fosters a sense of community—you can use it to see where others are at in their journey and to stay  motivated to document your own.
 
 ### How Can I Participate?
 
-Do #100DaysOfCode with <organization>! Work your way through projects, or document your Tech journey—either way, posting what you’re learning each day is a great way to see your coding progress unfold and find support. We’ll support you with encouraging messages along the way, and you’ll have the entire <organization> online community to supplement your interactions. At the end of your 100 days coding with us, you’ll get a host of experience and several friends that have taken part in this challenge.
+Do #100daysOfCode with <organization>! Work your way through projects, or document your Tech journey—either way, posting what you’re learning each day is a great way to see your coding progress unfold and find support. We’ll support you with encouraging messages along the way, and you’ll have the entire <organization> online community to supplement your interactions. At the end of your 100 days coding with us, you’ll get a host of experience and several friends that have taken part in this challenge.
 
 ## Two Main Rules
 
@@ -36,7 +36,7 @@ Do #100DaysOfCode with <organization>! Work your way through projects, or docume
 * Create a github account
 * Fork our repo locally: https://github.com/<link>
 * Track the our repo as a remote (Optional)
-* Create a branch and a folder with your name (ex. 100DaysOfCode_YourName)
+* Create a branch and a folder with your name (ex. 100daysOfCode_YourName)
 * Code daily and post to github and <channel> on your progress
 
 
@@ -49,4 +49,4 @@ Let's have fun and support everyone in their tech journey
 [![Current Status](https://raw.githubusercontent.com/baltimoreblacktechies/100daysOfCode-2021/gh-pages/track.png)](https://github.com/baltimoreblacktechies/100daysOfCode-2021)
 
 ## Legal
-The template and supporting code for this repo are licensed under the Apache License 2.0 ([TLDR legal here](https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)#summary)). Folders under `100DaysOfCode_*` are licensed under their respective authors. Derivates of this project must link back to the original [Baltimore Black Techie 100 Days of Code template](https://github.com/baltimoreblacktechies/100daysOfCode) (just keep this subsection folx), and are licensed under the good faith that sub-licensers will up hold some meaningful interpretation of our [Code Of Conduct](https://github.com/BaltimoreBlackTechies/100daysOfCode/blob/main/CodeofConduct.md).
+The template and supporting code for this repo are licensed under the Apache License 2.0 ([TLDR legal here](https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)#summary)). Folders under `100daysOfCode_*` are licensed under their respective authors. Derivates of this project must link back to the original [Baltimore Black Techie 100 Days of Code template](https://github.com/baltimoreblacktechies/100daysOfCode) (just keep this subsection folx), and are licensed under the good faith that sub-licensers will up hold some meaningful interpretation of our [Code Of Conduct](https://github.com/BaltimoreBlackTechies/100daysOfCode/blob/main/CodeofConduct.md).
