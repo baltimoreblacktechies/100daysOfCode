@@ -2,7 +2,7 @@
 ### (remove me)
 This repository seeks to serve as a template for organizations/groups that would collectively like to participate in the 100 days of code project. To use this project, replace all words in `<tags>` with the respective value. For instance, `<year> -> 2022`. You should just be able to search for occurrences of `<`. Additionally, address wherever there is a TODO. For an example of this template in use, see [BBT-2021](https://github.com/baltimoreblacktechies/100daysOfCode-2021/) and for the auto-generated tracking site, [see the rendering of this template](https://baltimoreblacktechies.github.io/100daysOfCode).
 
-You may also want to edit `mkdocs.yml` for static site generation. Contributions are counted in a given day, are will not be counted if the phrases `DNT`, `Updated README` or `Merge pull request` are present in a commit message.
+You may also want to edit `mkdocs.yml` for static site generation. Contributions are counted in a given day, and will not be counted if the phrases `DNT`, `Updated README` or `Merge pull request` are present in a commit message.
 
 [![Template Button](https://gist.githubusercontent.com/dmadisetti/80e7e90522829bc12094ccf0d0031b77/raw/5e15952f91b585fe3bb3e92c2d72fc4b48e69f07/template.svg)](https://github.com/baltimoreblacktechies/100daysOfCode/generate)
 
