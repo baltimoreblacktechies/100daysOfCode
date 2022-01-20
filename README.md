@@ -6,8 +6,8 @@ You may also want to edit `mkdocs.yml` for static site generation. Contributions
 
 ---
 
-# 100 Days Of Code <organization>
-## <year>
+# 100 Days Of Code `<organization>`
+## `<year>`
 
 [![100 days of Code](https://raw.githubusercontent.com/baltimoreblacktechies/100daysOfCode/gh-pages/banner.png)](https://bmoreblack.tech)
 [![Join the slack channel](https://img.shields.io/badge/slack-Baltimore%20Black%20Techies-red.svg?logo=slack)](http://bit.ly/3r4lPQm)
@@ -17,7 +17,7 @@ You may also want to edit `mkdocs.yml` for static site generation. Contributions
 ### TODO: Add more relevant badges. Example badges below. Note that the contributor and days code are automatically generated and can be changed for your repo.
   
 The challenge is to code at least **one hour every day for the next 100 days**.
-This is just a repository for members of <organization> to share some of their projects, efforts and notes. Let's see if we can get 100 days of code together!
+This is just a repository for members of `<organization>` to share some of their projects, efforts and notes. Let's see if we can get 100 days of code together!
 
 ## FAQ:
 
@@ -27,20 +27,20 @@ This is just a repository for members of <organization> to share some of their p
 
 ### How Can I Participate?
 
-Do #100daysOfCode with <organization>! Work your way through projects, or document your Tech journey—either way, posting what you’re learning each day is a great way to see your coding progress unfold and find support. We’ll support you with encouraging messages along the way, and you’ll have the entire <organization> online community to supplement your interactions. At the end of your 100 days coding with us, you’ll get a host of experience and several friends that have taken part in this challenge.
+Do #100daysOfCode with `<organization>`! Work your way through projects, or document your Tech journey—either way, posting what you’re learning each day is a great way to see your coding progress unfold and find support. We’ll support you with encouraging messages along the way, and you’ll have the entire `<organization>` online community to supplement your interactions. At the end of your 100 days coding with us, you’ll get a host of experience and several friends that have taken part in this challenge.
 
 ## Two Main Rules
 
 1.  Code minimum an hour every day for the next 100 days.
-2.  Slack your progress every day with the <communication> channel.
+2.  Slack your progress every day with the` <communication>` channel.
 
 ## Instructions
 
 * Create a github account
-* Fork our repo locally: https://github.com/<link>
+* Fork our repo locally: https://github.com/`<link>`
 * Track the our repo as a remote (Optional)
 * Create a branch and a folder with your name (ex. 100daysOfCode_YourName)
-* Code daily and post to github and <channel> on your progress
+* Code daily and post to github and `<channel>` on your progress
 
 
 Let's have fun and support everyone in their tech journey
